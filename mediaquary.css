@@ -1,0 +1,16 @@
+@media(max-width : 768px ){
+    #second-main{
+
+    display: grid;
+    gap: 1.0rem;
+    margin: 20px auto;
+   
+
+    }
+
+    .player-name{
+
+        width: 130%;
+
+    }
+}

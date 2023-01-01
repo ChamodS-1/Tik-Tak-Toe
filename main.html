@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="overlay.css">
+    <link rel="stylesheet" type="text/css" href="won.css">
+    <link rel="stylesheet" type="text/css" href="mediaquary.css">
+    <link rel="stylesheet" type="text/css" href="game-plate.css">
+    <script src="checkWinner.js" defer></script>
+    <script src="gameLogic.js" defer></script>
+    <script src="gameStart.js" defer></script>
+    <script src="fuctions.js" defer></script>
+    <script src="accessElements.js" defer></script>
+    <script src="gameOver.js" defer></script>
+    
+   
+    <title>Tik-Tak-Tok</title>
+</head>
+<body>
+    <div id="main-topic">
+        <h1>Play Tik,Tac,Toe</h1>
+        <p>Build in HTML, CSS, JavaScript and - of course - lots of love</p>
+    </div>
+    <div id="overlay-background"></div>
+    <form>
+    <div id="form-submission">
+
+        <h3><b>Choose your name</b></h3>
+        
+            <label for="name-field">Player name</label>
+            <input type="text" id="name-field" name="user-name" required>
+            <p id="errorMessage"></p>
+            <button type="submit" id="Confirm-button">Confirm</button>
+            <button type="button" id="cancle-button">Cancle</button>
+     
+    </div>
+</form>
+    
+    <div id="second-main">
+    <div class="player-name" id="player-1-dataset">
+
+        <p><b>Player 1</b></p>
+        <h1 id="player-1">PLAYER NAME</h1>
+        <p id="main-sign">X</p>
+        <button class="edit-button" id="button1" data-playerid="1">edit</button>
+
+    </div>
+
+    <div class="player-name" id="player-2-dataset">
+
+        <p><b>Player 2</b></p>
+        <h1 id="player-2">PLAYER NAME</h1>
+        <p id="main-sign">O</p>
+        <button class="edit-button" id="button2" data-playerid="2">edit</button>
+       
+
+    </div>
+</div>
+
+<div id="new-game-start">
+
+    <button id="new-Start-button">Start New Game</button>
+</div>
+
+<div id="won-game">
+
+    <h1>You Won! <span id="winner-id"> PLAYER NAME</span></h1>
+    <p>Click "Start New Game" above, to start a new game!</p>
+
+</div>
+
+
+<div id="game-plate">
+    <p>it is your turn <b><span id="changePlayer">PLAYER NAME!</span></b></p>
+<ul id="game-palteAll">
+
+    <li data-row="1" data-col="1"></li>
+    <li data-row="1" data-col="2"></li>
+    <li data-row="1" data-col="3"></li>
+
+    <li data-row="2" data-col="1"></li>
+    <li data-row="2" data-col="2"></li>
+    <li data-row="2" data-col="3"></li>
+
+    <li data-row="3" data-col="1"></li>
+    <li data-row="3" data-col="2"></li>
+    <li data-row="3" data-col="3"></li>
+</ul>
+</div>
+</body>
+</html>

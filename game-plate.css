@@ -1,0 +1,45 @@
+#game-plate{
+
+    display: none;
+    text-align: center;
+}
+
+ul{
+
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3,6rem);
+    grid-template-rows: repeat(3,6rem);
+    gap: 4px 3px;
+    width:fit-content;
+    margin: 1.5rem auto; 
+    padding: 0;
+   
+}
+
+li{
+
+    background-color: rgb(190, 146, 224);
+    width: 95%;
+    height: 75%;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding-top: 20px;
+    font-weight: bold;
+   
+}
+
+li:hover{
+
+    background-color: rgb(140, 0, 255);
+
+}
+
+.newColor{
+
+    background-color: rgb(140, 0, 255);
+
+}

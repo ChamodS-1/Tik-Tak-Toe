@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(247, 239, 247);
+}
+
+#main-topic{
+
+    background-color: rgb(140, 0, 255);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+#main-topic h1{
+
+    margin: 0;
+    font-weight: bold;
+     
+}
+
+.player-name{
+
+    background-color: rgb(243, 227, 255);
+    width: 20%;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,0.2);
+    padding: 1rem 0.8rem;
+}
+
+.player-name h1{
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(94, 4, 168);
+}
+
+.player-name p{
+
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+#main-sign{
+
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+
+#second-main{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.0rem;
+    width: 100%;
+    height: auto;
+    margin: 3rem auto;
+    margin-bottom: 1.5rem;
+
+}
+
+.edit-button{
+
+    color: rgb(255, 255, 255);
+}
+
+.edit-button:hover{
+
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#new-game-start{
+    width:fit-content;
+    margin: 1.0rem auto;
+}
+
+#new-Start-button{
+    font-size: 1.1rem;
+    padding: 0.8rem 2.0rem;
+}
+
+#new-Start-button:hover{
+background-color: rgb(50, 5, 87);
+cursor: pointer;
+
+}
+
+#new-Start-button:active{
+    background-color: rgb(29, 3, 50);
+    cursor: pointer;
+    
+    }
